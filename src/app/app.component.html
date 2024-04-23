@@ -1,0 +1,10 @@
+<div #contentToRecord>
+  <span>I am a span</span>
+  <div class="buttons">
+    <button (click)="startRecording()">Start Recording</button>
+    <button (click)="stopRecording()">Stop Recording</button>
+    <button (click)="exportVideo()">Export Video</button>
+  </div>
+
+  <video controls #recordedVideo></video>
+</div>
